@@ -1,7 +1,4 @@
 # Cohort 3.0 Projects
-
-Welcome to the Cohort 3.0 projects repository by 100xdevs!
-
 ## Overview
 
 This repository contains various projects developed during the Cohort 3.0 program. Each project showcases different skills and technologies learned throughout the course.
