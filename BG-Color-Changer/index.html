@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BG-Color Changer</title>
+    <style>
+        .red-button{
+            background-color: red;
+            color:white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .yellow-button{
+            background-color: yellow;
+            color:white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .black-button{
+            background-color: black;
+            color:white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .purple-button{
+            background-color: purple;
+            color:white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .green-button{
+            background-color: green;
+            color:white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .blue-button{
+            background-color: blue;
+            color:white;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        .def{
+            background-color: white;
+            color:black;
+            padding: 15px;
+            cursor: pointer;
+            border-radius: 15px;
+        }
+
+        #buttons{
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <p>Enter your custom color to the panel!</p>
+    <input type="text" id="color_custom" placeholder="Enter hex">
+    <button onclick="addColor()">Submit</button>
+    <div id="buttons">
+        <button class="red-button" onclick="f('red')">Red</button>
+        <button class="yellow-button" onclick="f('yellow')">Yellow</button>
+        <button class="black-button" onclick="f('black')">Black</button>
+        <button class="purple-button" onclick="f('purple')">Purple</button>
+        <button class="green-button" onclick="f('green')">Green</button>
+        <button class="blue-button" onclick="f('blue')">Blue</button>
+        <button class="def" onclick="f('white')">Default</button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
